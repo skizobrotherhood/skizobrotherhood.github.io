@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(6, 44, 39);
+    background-color: black;
     color: whitesmoke;
 }
 hr{
@@ -27,7 +27,6 @@ header div.navbar{
 }
 
 .welcome{
-    border-style: solid;
     max-width: 100%;
     height: 600px;
     background-color: #201b3b;
@@ -42,27 +41,45 @@ header div.navbar{
     font-size: 20px;
     margin: 180px 100px 0 0;
     background-color: rgba(32, 27, 59, 0.7);
+    border-radius: 15% 0 15% 0;
+    overflow: hidden;
 }
 .aboustus p{
-    padding: 5px;
+    padding: 20px;
+    margin: 0 auto;
 }
 .aboutus h3{
     font-size: 30px;
 }
 
 .whatwedo{
+    background-color: #201b3b;
     max-width: 100%;
-    height: 500px;
-    border-style: solid;
+    height: auto;
 }
 .whatwedo h3{
-    font-size: 27px;
     text-align: center;
+    font-size: 27px;
 }
-.wedos{
+.whatwedo .wedo{
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
 }
-.wedos span{
-    margin: 0 auto;
+@media only screen and  (max-width: 700px){
+    .whatwedo .wedo{
+        display: grid;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    
+}
+.wedo .do{
+    border-style: solid;
+}
+.wedo .do{
+    text-align: center;
+    font-size: 18px;
 }
 footer{
     height: 100px;
