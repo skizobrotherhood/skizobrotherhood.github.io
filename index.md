@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/skizobrotherhood/skizobrotherhood.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/skizobrotherhood/skizobrotherhood.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skizo Brotherhood - We design and enjoy art</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="container">
+<header>
+<div class="navbar">
+    <span class=""><a href="#">Home</a></span>
+    <span class=""><a href="#">What We Do</a></span>
+    <span class=""><a href="#">Our Projects</a></span>
+    <span class=""><a href="#">Contact Us</a></span>
+</div>
+</header>
+<hr/>    
+<div class="main">
+<div class="welcome">
+    <div class="aboutus">
+    <p>
+        <h3>We are Skizo Brotherhood</h3>
+        We will help you design website UI/UX, draw arts, logo, illustrations and etc.
+    </p>
+    </div>
+</div>
+<div class="whatwedo">
+    <h3>What we do</h3>
+    <div class="wedos">
+    <span class="wedo">Web design</span>
+    <span class="wedo">Logo</span>
+    <span class="wedo">Arts</span>
+    <span class="wedo">Illustrations</span>
+    </div>
+</div>
+</div>
+<hr/>
+<footer>
+    <div class="footerbar">
+    <p class="copyright">Copyright © 2022 Skizo Brotherhood.</p>
+    <p class="socialmedia">fb ~ twitter ~ instgram</p>
+    </div>
+</footer>
+</div>
+</body>
+</html>
