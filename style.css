@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(6, 44, 39);
+    color: whitesmoke;
+}
+hr{
+    border-color: lime;
+    background-color: lime;
+}
+header{
+    background-color: #201b3b;
+    max-width: 100%;
+    overflow: hidden;
+}
+header div.navbar{
+    padding: 10px;
+    margin: 0 auto;
+    overflow: hidden;
+    float: right;
+}
+.navbar span{
+    padding: 10px;
+    font-size: 18px;
+}
+.navbar span a{
+    text-decoration: none;
+    color: white;
+}
+
+.welcome{
+    border-style: solid;
+    max-width: 100%;
+    height: 600px;
+    background-color: #201b3b;
+    background-image: url(skizo1.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    overflow: hidden;
+}
+.aboutus{
+    border-style: solid;
+    float: right;
+    font-size: 20px;
+    margin: 180px 100px 0 0;
+    background-color: rgba(32, 27, 59, 0.7);
+}
+.aboustus p{
+    padding: 5px;
+}
+.aboutus h3{
+    font-size: 30px;
+}
+
+.whatwedo{
+    max-width: 100%;
+    height: 500px;
+    border-style: solid;
+}
+.whatwedo h3{
+    font-size: 27px;
+    text-align: center;
+}
+.wedos{
+}
+.wedos span{
+    margin: 0 auto;
+}
+footer{
+    height: 100px;
+    max-width: 100%;
+    background-color: #201b3b;
+    overflow: hidden;
+}
+.footerbar{
+    padding: 10px;
+    margin: 0 auto;
+}
+footer p{
+    padding: 10px;
+
+}
+footer p.copyright{
+    float: left;
+    max-width: 45%;
+}
+footer p.socialmedia{
+    float: right;
+    max-width: 45%;
+}
